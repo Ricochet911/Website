@@ -1,0 +1,217 @@
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px 50px 150px;
+  font-size: 13px;
+  text-align: center;
+  background-color: #EBE1AD;
+}
+#container {
+	width: 85vw;
+	margin: 0 auto;
+}
+.header {
+	background-color: #E9E9E9;
+	padding: 40px 0;
+}
+.section-inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+nav {
+	background-color:white;
+}
+/* Hoofdtitels Navigatie */
+#nav li {
+	text-align: links;
+}
+#nav ul li {
+	list-style: none;
+	font-size: 93%;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #000;
+}
+/* Navigatie onderwerpen */
+#nav li li {
+	width: 60%;
+}
+#sub li {
+	width:100%;
+}
+#text {
+	width: 75%;
+	height: 500px;
+	background-color: #fff;
+	border: solid 1px black;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	float:left;
+	font-family: arial;
+}
+#sidebar {
+	width: 25%;
+	height: 500px;
+	background-color: #fff;
+	border: solid 1px black;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	float:right;
+	font-family: Helvetica;
+}
+.body-content {
+	padding: 50px 0;
+	background-color: #FFF;
+}
+.thirds {
+	padding-bottom: 50px;
+	font-family: calibri;
+	font-size: 15px;
+	text-align: left;
+}
+.one-third {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	font-family: calibri;
+	font-size: 15px;
+	text-align: left;
+}
+.one-third-last {
+	margin: 0;
+	font-family: calibri;
+	font-size: 15px;
+	text-align: left;
+}
+.main {
+	width: 65%;
+	float: left;
+	margin-right: 5%;
+	font-family: calibri;
+	font-size: 20px;
+	text-align: left;
+}
+.side {
+	width: 30%;
+	float: left;
+}
+.info-box-a {
+	background-color: #9bdaef;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+	font-family: calibri;
+	font-size: 16px;
+	text-align: left;
+}
+.info-box-b {
+	background-color: #efdb7f;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+	font-family: calibri;
+	font-size: 16px;
+	text-align: left;
+}
+#footer { 
+    display: block;
+	background-color: #3f3f3f;
+	padding: 15px 0;
+	text-align: center;
+}
+ul {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	color: #white;
+	padding: 15px 4px 17px 0;
+	list-style: none;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+/* Ook navigatie hoofd */
+ul li {
+	font: bold 12px/18px sans-serif;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 15px 20px;
+	background: #FFF;
+	
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+/*hover functie gehele menu*/
+ul li:hover {
+	background: #fff;
+/*	padding-top: 25%; */
+}
+ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 150px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { 
+background: #666;
+}
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0 0 1em 0;
+	font-size: 93%;
+	line-height: 1.5em;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #3f3f3f;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
